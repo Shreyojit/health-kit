@@ -1,13 +1,13 @@
-import Image from "next/image"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { ChevronRight } from "lucide-react"
-import Navbar from "../components/navbar"
-import Footer from "../components/footer"
-import FeatureCard from "../components/feature-card"
-import HowItWorks from "../components/how-it-works"
-import PartnerLogos from "../components/partner-logos"
-import WorkflowDiagram from "../components/workflow-diagram"
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { ChevronRight } from "lucide-react";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
+import FeatureCard from "../components/feature-card";
+import HowItWorks from "../components/how-it-works";
+import PartnerLogos from "../components/partner-logos";
+import WorkflowDiagram from "../components/workflow-diagram";
 
 export default function Home() {
   return (
@@ -46,8 +46,8 @@ export default function Home() {
                 A zero-code platform for rapid multimodal AI development
               </h2>
               <p className="text-gray-700 text-lg leading-relaxed">
-                Whether you are working with imaging, video, text, audio or structured data – Jiva.ai will be your
-                constant companion on your AI journey. Manage your organisation's entire AI requirements from start to
+                Whether you are working with imaging, video, text, audio or structured data &ndash; Jiva.ai will be your
+                constant companion on your AI journey. Manage your organisation&apos;s entire AI requirements from start to
                 finish. Connect multiple data verticals together to create meaningful, multimodal insights. Democratise
                 access to data science and AI skills with your existing team.
               </p>
@@ -78,7 +78,7 @@ export default function Home() {
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Data Science and Automations Assistant</h3>
                 <p className="text-gray-700 text-lg">
-                  Engineer data and AI with ease. Jiva's assistant walks you through the design process, step by step.
+                  Engineer data and AI with ease. Jiva&apos;s assistant walks you through the design process, step by step.
                 </p>
               </div>
               <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-4">
@@ -134,7 +134,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Your AI Building Assistant.</h2>
           <p className="text-xl text-gray-800 mb-8 max-w-3xl mx-auto">
-            Whether you are working within images, video, text, audio or unstructured data - Jiva.ai will be your
+            Whether you are working within images, video, text, audio or unstructured data &ndash; Jiva.ai will be your
             constant companion on your AI journey.
           </p>
           <Button className="bg-gray-900 hover:bg-gray-800 text-white rounded-full px-8 py-6 text-lg">
@@ -182,5 +182,5 @@ export default function Home() {
 
       <Footer />
     </div>
-  )
+  );
 }
